@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Environment / secrets (keep the committed examples)
+.env
+.env.*
+!.env.example
+
+# SQLite databases (dev data, WAL/journal files)
+server/data/
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor / OS
+.idea/
+.DS_Store
+Thumbs.db
+*.sw?
